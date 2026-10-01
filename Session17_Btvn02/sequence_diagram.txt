@@ -1,0 +1,56 @@
+sequenceDiagram
+    autonumber
+    actor Shipper as Tài xế (Shipper)
+    box rgb(235, 245, 255) Presentation Tier
+        participant App as ShipperApp
+    end
+    box rgb(235, 255, 235) Business Logic Tier
+        participant Ctrl as DeliveryController
+        participant Svc as DeliveryService
+    end
+    box rgb(255, 250, 235) Data Tier
+        participant Repo as PackageRepository
+        participant DB as Database
+    end
+
+    Shipper->>App: Nhập thông tin & chọn xác nhận đơn hàng
+
+    alt Happy Path: Giao hàng thành công
+        App->>Ctrl: POST /api/v1/deliveries/success (DeliverySuccessDTO)
+        activate Ctrl
+        Ctrl->>Svc: processDeliverySuccess(dto)
+        activate Svc
+        Svc->>Svc: Kiểm tra GPS, đối soát tiền COD và ảnh xác nhận
+        Svc->>Repo: updateStatus(packageId, "DELIVERED", codAmount, proofImage)
+        activate Repo
+        Repo->>DB: UPDATE Package_Table SET Status='DELIVERED'...
+        activate DB
+        DB-->>Repo: 1 row affected
+        deactivate DB
+        Repo-->>Svc: Success
+        deactivate Repo
+        Svc-->>Ctrl: DeliveryResponseDTO (Status: DELIVERED)
+        deactivate Svc
+        Ctrl-->>App: HTTP 200 OK (Giao hàng thành công)
+        deactivate Ctrl
+        App-->>Shipper: Hiển thị "Giao hàng thành công"
+    else Alternative Flow: Khách từ chối nhận / Vắng nhà
+        App->>Ctrl: POST /api/v1/deliveries/failed (DeliveryFailedDTO)
+        activate Ctrl
+        Ctrl->>Svc: processDeliveryFailed(dto)
+        activate Svc
+        Svc->>Svc: Ghi nhận lý do và tự động lập lịch giao lại lần 2
+        Svc->>Repo: recordFailedAttempt(packageId, "FAILED_ATTEMPT_1", reason, rescheduleDate)
+        activate Repo
+        Repo->>DB: UPDATE Package_Table SET Status='FAILED_ATTEMPT_1', Reason=..., NextSchedule=...
+        activate DB
+        DB-->>Repo: 1 row affected
+        deactivate DB
+        Repo-->>Svc: Success
+        deactivate Repo
+        Svc-->>Ctrl: DeliveryResponseDTO (Status: FAILED_ATTEMPT_1)
+        deactivate Svc
+        Ctrl-->>App: HTTP 200 OK (Đã lưu lý do và lập lịch giao lại)
+        deactivate Ctrl
+        App-->>Shipper: Hiển thị "Đã ghi nhận thất bại và lập lịch giao lại lần 2"
+    end
