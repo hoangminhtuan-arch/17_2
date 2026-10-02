@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="itl_GVqDOO1Bx0t_VHv4">
+    <mxGraphModel dx="2298" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gjyG7hLLMASVDupvvQcA-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="620" width="20" x="60" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-7" parent="gjyG7hLLMASVDupvvQcA-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="400" width="10" x="5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Presentation Tier:&lt;div&gt;ShipperApp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="620" width="100" x="265" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-9" parent="gjyG7hLLMASVDupvvQcA-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="45" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-10" parent="gjyG7hLLMASVDupvvQcA-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="45" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Business Logic Tier:&lt;div&gt;DeliveryService&lt;/div&gt;" vertex="1">
+          <mxGeometry height="620" width="120" x="530" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Data Tier:&lt;div&gt;PackageRespository&lt;/div&gt;" vertex="1">
+          <mxGeometry height="620" width="120" x="780" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tài xế" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-6" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="Alt" vertex="1">
+          <mxGeometry height="500" width="920" x="10" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-8" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;curved=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-20" y="600" as="sourcePoint" />
+            <mxPoint x="1000.800048828125" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" target="gjyG7hLLMASVDupvvQcA-2" value="Click(Xac nhan giao hang)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Giao hang thanh cong]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="195" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-19" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;endArrow=block;endSize=9;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="495.0014285714287" as="sourcePoint" />
+            <mxPoint x="839.5" y="495.0014285714287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-13" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="590" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" target="gjyG7hLLMASVDupvvQcA-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;HTTP POST /deliveries/confirm&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;(DTO, GPS, COD_Amount)&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="320" y="430" as="sourcePoint" />
+            <mxPoint x="545.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-16" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="590" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-17" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" target="gjyG7hLLMASVDupvvQcA-16" value="kiem tra GPS va COD">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="465" />
+            </Array>
+            <mxPoint x="595" y="435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-18" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="835" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="updateStatus(PackageID, &#39;DELIVERED&#39;)" vertex="1">
+          <mxGeometry height="30" width="235" x="600" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-21" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;curved=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-13" value="Thanh cong">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="770" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-22" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;curved=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-9" value="200 OK">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="520" y="530" as="sourcePoint" />
+            <mxPoint x="680" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Khach vang nha / tu choi]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="195" x="70" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-25" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-1" value="Hien thi da giao">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="100" y="550" as="sourcePoint" />
+            <mxPoint x="260" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;click &quot;Bao cao that bai&quot; &amp;amp; nhap ly do&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="80" y="665" as="sourcePoint" />
+            <mxPoint x="640" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-27" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="585" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;HTTP POST /deliveries/Fail&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;(DTO, PackageId, Ly do, Thu lai:1)&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="314.07142857142844" y="680" as="sourcePoint" />
+            <mxPoint x="590" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-30" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="590" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-31" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;verticalAlign=bottom;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" target="gjyG7hLLMASVDupvvQcA-30" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Ghi nhan ly do &amp;amp; lap lich giao lai&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="700" />
+            </Array>
+            <mxPoint x="595" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-32" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="835" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-33" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-27" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;endSize=9;" target="gjyG7hLLMASVDupvvQcA-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;updateStatus(PackageID,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&#39;FAILED_ATTEMPT_1&#39;, NextSchedule)&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="660" y="770" as="sourcePoint" />
+            <mxPoint x="740" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-34" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-27" value="Thanh cong">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="820" as="sourcePoint" />
+            <mxPoint x="560" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-35" edge="1" parent="1" source="gjyG7hLLMASVDupvvQcA-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="gjyG7hLLMASVDupvvQcA-2" value="200 OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="790" as="sourcePoint" />
+            <mxPoint x="380" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjyG7hLLMASVDupvvQcA-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeColor=default;strokeWidth=1.5;align=center;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontColor=default;labelBackgroundColor=none;elbow=vertical;" value="Hien thi: Da luu thhong tin">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315.43" y="790" as="sourcePoint" />
+            <mxPoint x="70.00142857142845" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
